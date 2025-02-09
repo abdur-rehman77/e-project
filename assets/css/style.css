@@ -84,6 +84,30 @@
     color: darkviolet;
 }
 
+@media screen and (max-width:460px) {
+    .cart-container{
+        width: 275px;
+    }
+
+
+    .cart-pic{
+        width: 60px;
+        height: 60px;
+    }
+
+    .cart-info{
+        font-size: smaller;
+    }
+
+    .order a{
+        width: 283px !important;
+        right: 11px !important;
+    }
+    .cart-total p{
+        font-size: small;
+    }
+}
+
 .dark .cart-info p, .dark .cart-total p{
     color: white;
 }
